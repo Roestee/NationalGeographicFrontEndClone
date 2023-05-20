@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 0px 2%;
+  position: sticky;
+  top: 0;
+  height: 100%;
+  z-index: 100;
+}
+body {
+  background: #000;
+}
+.navLeft img {
+  width: 130px;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.navRight a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+  align-self: center;
+}
+.navRight a p {
+  display: flex;
+}
+#newsletter {
+  font-weight: normal;
+  font-size: 1.1rem;
+  text-decoration: underline;
+  text-decoration-color: #fdda00;
+  text-decoration-thickness: 3px;
+}
+#subscribe {
+  background: #000;
+  color: #fff;
+  height: 100%;
+  width: 150px;
+}
+#subscribe p {
+  margin-top: 20px;
+  justify-content: center;
+}
+#subscribe:hover,
+.seeMore a:hover {
+  background: #fdda00;
+  color: #000;
+}
+#newsletter:hover {
+  background: #fdda00;
+}
+#menu {
+  display: flex;
+}
+#menu i {
+  margin-left: 8px;
+  font-size: 1.2rem;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: CENTER;
+  text-align: center;
+  color: #fff;
+}
+.contentHeader h1 {
+  padding: 40px 0;
+  font-size: 4rem;
+}
+.contentHeader p {
+  font-size: 1.5rem;
+}
+.contentHeader a,
+.seeMore a {
+  text-decoration-color: #fdda00;
+  text-decoration-thickness: 3px;
+  color: #fff;
+}
+.sides {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0;
+}
+.sideLeft {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.sideLeft h2 {
+  border-left: 3px solid #fdda00;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.sideRight {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.picks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pick {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.pick img {
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+}
+.pickRight h3 {
+  margin-bottom: 8px;
+}
+.pickRight h3 i {
+  margin-right: 10px;
+}
+.pickRight h3:hover,
+.pickRight h4:hover,
+.pickRight p:hover {
+  text-decoration: underline;
+}
+#paidContent {
+  background-color: #fff;
+  color: #000;
+}
+.seeMore {
+  margin-top: 30px;
+  text-align: start;
+}
+.readTop {
+  flex-basis: 40%;
+}
+.readBottom {
+  flex-basis: 40%;
+}
+.read {
+  flex-basis: 50%;
+  background-image: url(images/read1.png);
+  padding-top: 70%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.read h4 {
+  position: absolute;
+  bottom: 120px;
+  left: 30px;
+}
+.read p {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: start;
+}
+.read a {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+  text-decoration: none;
+  color: #fff;
+  text-align: start;
+}
+.read:hover {
+  background-size: 680px;
+}
